@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                git branch: 'main', url: 'https://github.com/victor1991-prog/Exercicio_Modulo13.gitt'
+                git branch: 'main', url: 'https://github.com/victor1991-prog/Exercicio_Modulo13.git'
                 sh 'npm install'
             }
         }
